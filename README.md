@@ -11,18 +11,16 @@ git clone https://github.com/uvmcs2300f2025/CLI-JHemmett
 ```
 winget install OpenJS.NodeJS
 ```
-4: If necessary, allow Powershell to run scripts
+
+4: If necessary, allow PowerShell to run scripts
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
 ```
 ```
 npm --version
 ```
-5: go to the correct directory
-```
-cd C:\Users\[your directory]
-```
-6: run greeting.js
+
+5: run greeting.js
 ```
 node greeting.js [your name]     
 ```
